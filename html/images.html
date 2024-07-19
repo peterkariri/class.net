@@ -1,0 +1,28 @@
+THE IMAGE tag is used to hold images 
+,this are various types of images format(png,jpeg,jpg,svg)
+it has two main attribute components:
+image source(src):refers to the path that the image resides>it can be a local path or a url
+alternate attribute>this attribute refers to the alternative telxt that represents the image(what renders at the 
+webpage once the image is not been render)
+<img src="/assets/demo.jpeg" alt="a river from a mountain" width="200px" height="150px">
+
+the video tag has the same laytout as the image tag 
+in additon to the source attriute the video tag poseses th econtrols property which initiates
+ the playback control(ie:pause and play)
+on top of this we can embedd video and image property in regard to the width and height 
+embedd content and video from local storage (or server storsge )provided you know the path 
+the control keyword is used to give all permissions to the video tag 
+<video src="/assets/demovideo.mp4" controls width="200px" height="100px"> </video>
+
+
+the iframe tag is used to embedd video and content froom the internet 
+the allow keyword specifies the type of controls to be issued to the ifram 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xXnD8Vuxuk0?si=FlY9GnyTrD7Civjv" 
+title="YouTube video demo" frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write;
+ encrypted-media; gyroscope; picture-in-picture; web-share" 
+ referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+ iframes can also embed maps
+
+ <iframe src="https://www.google.com/maps/embed?pb=!1m24!1m8!1m3!1d439890.8393836313!2d36.765289622489924!3d-1.2087322401872456!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi!3m2!1d-1.2920658999999999!2d36.8219462!4m5!1s0x1781018b02431f27%3A0xe38264b3ebe16e54!2sEldohub%2C%20Eastern%20Avenue%2C%20%26%20Elgeyo%20Rd%2C%20Eldoret!3m2!1d0.5215406!2d35.280206899999996!5e0!3m2!1sen!2ske!4v1721303977591!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

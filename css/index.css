@@ -1,0 +1,37 @@
+/* //cascanding style sheet comonly refereed to as css is used to style html tags 
+over the years css has evolved and from the vanilla css that was the original css to the new framewroks 
+this frameworks uses css rules to design websites
+this frameworks include bootstrap,tailwind css
+
+but for now inorder to understand this framework we need to understad vanilla css */
+/* css uses the following syntax and compnents 
+
+selectors:they specify which html tag to target 
+properties:refer to the action you wan to manipulate to the tag
+value:how much or how you want to manipulate the choosen tag by the selector 
+h1{selector
+    font-size: property
+    20px;value
+}
+//Selectors
+they are a few categories of selectors used in css 
+this are :element selector,class selector,id selector,pseduo class selector
+
+element selector:this selector is used to select single elements/tags ta a go (h1,p,div,h2.etc)
+the default synta is just the tag name 
+h1{color:red;}
+
+//class selector:this selector is used to select multiple elements/tags at a go
+class selector:tjis selector is used to target tags or elements that belong to the same class
+the class selector is denoted by the dot syntax eg) .first-child{}
+
+id:this selector is used to target elements with a ubique id .elements 
+can belong to similar classes but can be manipulated to take other 
+styles using the ID selector
+
+pseduo class selectorL:this selectors are used to manipulate nested :targetie)
+:nth-child(), :nth-last-child(),
+:nth-last-of-type(),:nth-of-type()
+the last selector is called a wild selector denoted by the symbool asteric >>to select everything in 
+the html document
+*/

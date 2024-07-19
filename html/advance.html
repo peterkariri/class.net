@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my Website</title>
+</head>
+<body>
+<!--     the required keyword makes sure there is an input to the field
+ -->    <form action="">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required  minlength="8" maxlength="15">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required  minlength="8" maxlength="15">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required minlength="8" maxlength="15" >
+        </div>
+        <div>
+            <label for="cpassword">Confirm Password:</label>
+            <input type="password" name="cpassword" id="cpassword" required minlength="8" maxlength="15">
+        </div> 
+        <div>
+            <label for="gender">Gender:</label><!-- when it comes to input type radio ,the elements under the
+             input type share a single label linked via an ID -->
+            <input type="radio" name="gender" id="gender" value="male">Male
+            <input type="radio" name="gender" id="gender" value="female">Female
+            <input type="radio" name="gender" id="gender" value="other">Prefer not to say
+             
+        </div>
+<!--         //additional dropdown select
+ -->        <div>
+            <label for="select">Role:</label>
+            <select name="" id="">
+                <option value="role"></option>
+                <option value="role">Teacher</option>
+                <option value="role">Student</option>
+                <option value="role">Admin</option>
+
+            </select>
+
+            <div>
+                <label for="">Hobbies</label>
+
+                <input type="checkbox" name="swimming" id="hobbies">Swimming
+                <!-- <label for="">dancing</label> -->
+                <input type="checkbox" name="dancing" id="hobbies">dancing
+<!--                 <label for="">running</label>
+ -->                <input type="checkbox" name="running" id="hobbies">running
+<!--                 <label for="">studying</label>
+ -->                <input type="checkbox" name="studying" id="hobbies">studying
+<!--                 <label for="">jogging</label>
+ -->                <input type="checkbox" name="jogging" id="hobbies">jogging
+            </div>
+            
+        </div>
+
+         <div>
+            <button type="submit" style="background-color: brown;color: white;">Submit me </button>
+            <button type="reset">reset me</button>
+         </div>
+
+    
+    </form>
+
+</body>
+</html>
