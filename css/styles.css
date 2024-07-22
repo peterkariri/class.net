@@ -8,6 +8,12 @@ body{
 
 //rgb,rgba,hex,hsl,hsla
 //box model(padding,margin,)>>box size
+padding :refers to the spaces around content //tjis can be anything inside tags or tags inside tags 
+margin:refers to space outside the content box that seperates the contents
+//border:refers to the border(physical separation) of the content box ie)line 
+
+
+
 //types of properties and values'
 // flexbox
 //grids

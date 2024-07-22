@@ -1,0 +1,57 @@
+*{  /* //universal selector */
+ margin:0;
+ padding: 0;
+}
+/* border properties 
+this are properties tht are used to 
+define the type of border a particular set of elemets confine to 
+this properties include :border radius:manipulates the she of the content box
+border:gives the content a border and can be combined with the properties of border to manioulate item in a sinlg eline 
+border width:determines the thickness of the border
+border color:determines the color of the border
+
+border radius targets every single corner of the content box(right,left(top,bottom)
+
+*/
+
+.test{
+  /*  border:dotted;
+    border-width: 3px;
+    border-color: black; */
+    border: solid 3px red;
+    width: 50%;
+    padding: 30px;
+    background-color: aqua;
+    margin: 30px auto;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 50px;
+    
+}
+.parent{ /* class selector */
+    background-olor: blue;
+    width: 50;
+    margin: 30px auto;
+}
+
+#second{/*  id selector */
+ background-color:beige;
+}
+.child-2 article{ /* descndant selector */
+font-size: 50px;
+color: rgb(226, 183, 43);
+}
+
+.child-3{
+    background-color: aqua;
+}
+form{ /* type/element selector */
+    background-color: burlywood;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+}
+input[type="text"],input[type="email"]{ /* input/attriut selector */
+    color: green;
+
+}

@@ -4,9 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first colorful website</title>
-    <link rel="stylesheet" href="/css/styles.css">
+<!--     embeded css
+ -->
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+}
+body{
+   margin: 0;
+   padding: 0;
+}
+.parent{
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-between;
+    gap: 20px;
+    flex-direction: row;
+    padding: 40px;
+}
+.content{
+    width: 50%;
+}
+#first{
+    background-color:white;
+}
+#second{
+    background-color:whitesmoke;
+}
+p{
+    color: violet !important;
+}
+p{
+    color:brown;
+}
+#color{
+    color: seagreen !important;
+}
+
+</style>
 </head>
 <body>
-    
+    <div class="parent" id="parent">
+        <div class="content" id="first">
+            <img src="/html/assets/demo.jpeg" alt="">
+            <p style="color: aqua;" id="color">this is a wonferul image</p>
+        </div>
+
+        <div class="content" id="second">
+            <h1>this is so perfect i like it </h1>
+        </div>
+
+    </div>
 </body>
 </html>
