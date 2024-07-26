@@ -2,9 +2,14 @@
     padding: 0;
     margin:0;
 }
-body{
-    background-color:blue;
-}
+/* body{
+    background-color:blue;sets background color 
+    background-position: ;sets position either eg.center
+    background-repeat: no-repeat;sets the background property eithr to(repeat,no repeat,repeat x,repeat-y)
+    background-image: url('');sets background as an image
+    background-size: ; gives the parameters that the background should cover(cover,contain)
+    background-attachment:;defines the behaviour of a background in relation to scrolling the window(fixed,scroll,inherit,local)
+} */
 
 //rgb,rgba,hex,hsl,hsla
 //box model(padding,margin,)>>box size

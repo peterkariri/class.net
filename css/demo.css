@@ -13,6 +13,48 @@ border color:determines the color of the border
 border radius targets every single corner of the content box(right,left(top,bottom)
 
 */
+body{
+    background-color: aqua;
+}
+.parent{
+    background-image: url('https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+   
+    top: 20px;
+    left: 10px;
+    right: 10px;
+ 
+}
+position{
+
+    relative:moves relative to itslef
+    fixed:stays constant
+    sticky:moves on particular set conditions (top,bottom,left,right)
+    absolute:moves in relation to the parent
+    static:default position
+
+}
+//flex properties
+.test{
+    display: flex;
+    flex-wrap: ;joining components of flexbok together
+    flex-shrink: ;the components of the flexbox will shrink as they progress ,this means the size will decrease
+    flex-grow: ;the components of the flexbox will grow as they progress ,ythis means the size will increase
+    flex-basis: ;a measuremnt on how the particular components inside the flex box will have 
+    its given in numbers from 1 and above ;
+}
+//display properties
+.test{
+  display:flex;
+  flex-direction: column;
+  flex-direction: column-reverse;
+  flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  
+}
 
 .test{
   /*  border:dotted;
@@ -20,15 +62,34 @@ border radius targets every single corner of the content box(right,left(top,bott
     border-color: black; */
     border: solid 3px red;
     width: 50%;
-    padding: 30px;
+    padding: 50px;
     background-color: aqua;
     margin: 30px auto;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 50px;
+    position: relative;
     
 }
+
+.test h1{
+    position: absolute;
+    color: brown;
+    bottom: 60%;
+}
+.test h2{
+    position: absolute;
+    color: blueviolet;
+    top: 50%;
+    left: 40%;
+}
+.test p{
+    position: absolute;
+    color: green;
+    top: 0;
+    left: 40%;
+}
 .parent{ /* class selector */
-    background-olor: blue;
+    background-color: blue;
     width: 50;
     margin: 30px auto;
 }
