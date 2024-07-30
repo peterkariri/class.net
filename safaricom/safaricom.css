@@ -7,18 +7,36 @@ body{
     width: 70%;
     margin: 30px auto;
     background-color: antiquewhite;
+    padding: 15px;
 }
 .card{
     width: 100%;
-    background-color:blue;
+    padding: 10px;
+   gap:40%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+}
+span{
+    position: relative;
+    right: 55px;
+}
+#push{
+    position: relative;
+    right: 85px;
+    top: 5px;
+    font-size: 23px;
+    color: green;
 }
 .image{
     width: 50%;
-    background-color: aqua;
+}
+
+.heading{
+    width: 100%;
+}
+.heading h1{
+    font-size: 50px;
 }
 .image img{
     width:50%;
@@ -37,10 +55,12 @@ body{
     width:30%;
 }
 .toolkit img{
-    width:30%;
+    width:40%;
 }
 .wifi{
     width:50%;
+    position: relative;
+    left: 70px;
 }
 .wifi img{
     width:20%;
@@ -54,20 +74,55 @@ body{
 .last-child{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  gap:30%;
   margin: 10px auto;
   width: 100%;
+  align-items: center;
 }
 
 .sub-content h1{
     font-size: 20px;
 }
 .visa{
-    width: 30%;
-    float: right;
+    width:100%;
     position: relative;
-    top: 100px;
+    top: 110px;
 }
 .visa img{
-    width: 30%;
+    width: 100%;
+}
+h5{
+    float: right;
+    position: relative;
+    bottom: 30px;
+}
+h3{
+    position: relative;
+    bottom: 30px;
+}
+.inside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 13px;
+}
+#month{
+    position: relative;
+    top: 45px;
+}
+.second h4{
+    font-size: 34px;
+    position: relative;
+    bottom: 20px;
+}
+#small{
+    position: relative;
+    bottom: 40px;
+    font-size: 13px;
+    float: right;
+}
+.content{
+    position: relative;
+    bottom: 23px;
 }
