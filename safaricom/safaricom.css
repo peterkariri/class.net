@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+.big-container{
+    width: 70%;
+    margin: 30px auto;
+    background-color: antiquewhite;
+}
+.card{
+    width: 100%;
+    background-color:blue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.image{
+    width: 50%;
+    background-color: aqua;
+}
+.image img{
+    width:50%;
+}
+.mpesa{
+    width: 50%;
+}
+.mpesa img{
+    width: 30%;
+}
+#card-1{
+   
+    padding: 20px;
+}
+.toolkit{
+    width:30%;
+}
+.toolkit img{
+    width:30%;
+}
+.wifi{
+    width:50%;
+}
+.wifi img{
+    width:20%;
+    rotate: 90deg;
+
+}
+.sub-child{
+   width: 80%;
+   margin: 20px auto;
+}
+.last-child{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px auto;
+  width: 100%;
+}
+
+.sub-content h1{
+    font-size: 20px;
+}
+.visa{
+    width: 30%;
+    float: right;
+    position: relative;
+    top: 100px;
+}
+.visa img{
+    width: 30%;
+}
